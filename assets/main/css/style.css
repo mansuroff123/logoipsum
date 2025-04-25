@@ -25,4 +25,25 @@
     font-weight: 400;
     src: url('../fonts/mulish-v13-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
          url('../fonts/mulish-v13-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-  }
+}
+
+nav.my_navbar {
+    font-family: "DM Sans";
+    font-weight: 700;
+}
+
+.started_orange {
+    background-color: #FF7143;
+    padding: 12px 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+}
+
+.started_orange:hover {
+    background-color: #eb8360;
+}
+
+.my_navbar .active {
+    border-bottom: #5454D4 solid 3px;
+}
