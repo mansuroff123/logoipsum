@@ -60,4 +60,17 @@ nav.my_navbar {
 .started_blue:hover {
     background-color: #5858ff;
 }
+
+.home_title {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.d_text {
+    font-family: "Mulish";
+    font-weight: 400;
+    font-size: 20px;
+    color: #696871;
+}
 /* --------------- Home Page End --------------- */
