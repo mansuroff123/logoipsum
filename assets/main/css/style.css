@@ -47,3 +47,17 @@ nav.my_navbar {
 .my_navbar .active {
     border-bottom: #5454D4 solid 3px;
 }
+
+/* --------------- Home Page Start --------------- */
+.started_blue {
+    background-color: #5454D4;
+    padding: 15px 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+}
+
+.started_blue:hover {
+    background-color: #5858ff;
+}
+/* --------------- Home Page End --------------- */
