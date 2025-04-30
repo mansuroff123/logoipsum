@@ -96,3 +96,20 @@ nav.my_navbar {
 }
 
 /* --------------- Subscribtion Page End --------------- */
+
+
+
+/* --------------- Benchmarks Page Begin --------------- */
+.d_title_2 {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.d_text_2 {
+    font-family: "Mulish";
+    font-weight: 400;
+    font-size: 16px;
+    color: #696871;
+}
+/* --------------- Benchmarks Page End --------------- */
