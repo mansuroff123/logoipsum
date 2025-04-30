@@ -74,3 +74,25 @@ nav.my_navbar {
     color: #696871;
 }
 /* --------------- Home Page End --------------- */
+
+
+/* --------------- Subscribtion Page Begin --------------- */
+
+.d_title {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.learn {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 17px;
+    color: #5454D4;
+    text-decoration: none;
+}
+.learn:hover {
+    color: #6d6df7;
+}
+
+/* --------------- Subscribtion Page End --------------- */
