@@ -113,3 +113,33 @@ nav.my_navbar {
     color: #696871;
 }
 /* --------------- Benchmarks Page End --------------- */
+
+
+/* --------------- Price Page Begin --------------- */
+.price_header {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 65px;
+}
+.btns {
+    background: #F7F6FB;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.price_btn {
+    background: #F7F7FB;
+    padding: 14px 32px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+}
+
+.btns .active {
+    background: #5454D4;
+    color: #fff;
+}
+
+/* --------------- Price Page End --------------- */
+
