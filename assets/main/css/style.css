@@ -129,7 +129,7 @@ nav.my_navbar {
 
 .price_btn {
     background: #F7F7FB;
-    padding: 14px 32px;
+    padding: 16px 54px;
     font-family: 'DM Sans';
     font-weight: 700;
     font-size: 16px;
@@ -139,6 +139,52 @@ nav.my_navbar {
 .btns .active {
     background: #5454D4;
     color: #fff;
+}
+
+.my_card {
+    background: #F8F8F8;
+    padding: 32px 20px;
+    border-radius: 10px;
+    max-width: 380px;
+}
+.card_text {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: #696871;
+    margin: 0;
+}
+
+.card_price {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.card_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.d_card_btn {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #5454D4;
+    background: #FFFFFF;
+    padding: 18px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #EAE9F2;
+    transition: 0.5s;
+}
+
+.d_card_btn:hover {
+    background: #5454D4;
+    color: #FFFFFF;
 }
 
 /* --------------- Price Page End --------------- */
