@@ -145,7 +145,7 @@ nav.my_navbar {
     background: #F8F8F8;
     padding: 32px 20px;
     border-radius: 10px;
-    max-width: 380px;
+    width: 380px;
 }
 .card_text {
     font-family: 'DM Sans';
@@ -185,6 +185,33 @@ nav.my_navbar {
 .d_card_btn:hover {
     background: #5454D4;
     color: #FFFFFF;
+}
+
+.premium_card {
+    background: #FF7143;
+    color: white;
+    width: 400px;
+}
+
+.premium_card .card_text, .premium_card .card_ul .card_text {
+    color: #fff;
+}
+
+.premium_card .d_card_btn {
+    background: #9F3919;
+    border: none;
+    color: #fff;
+}
+.premium_card .d_card_btn:hover {
+    background: #70230b;
+}
+
+.card_date {
+    font-size: 28px;
+}
+
+.hide {
+    display: none;
 }
 
 /* --------------- Price Page End --------------- */
