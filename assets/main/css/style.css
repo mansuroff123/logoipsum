@@ -214,5 +214,13 @@ nav.my_navbar {
     display: none;
 }
 
+#yearlyCards,
+#monthlyCards {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  flex-wrap: wrap;
+}
+
 /* --------------- Price Page End --------------- */
 

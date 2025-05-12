@@ -149,15 +149,15 @@
         <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end align-items-center">
           <div class="d-inline-block">
             <div class="btns d-flex gap-0">
-              <button class="price_btn active" style="border-radius: 10px 0 0 10px;">Yearly</button>
-              <button class="price_btn" style="border-radius: 0 10px 10px 0;">Monthly</button>
+              <button class="price_btn" style="border-radius: 10px 0 0 10px;" id="yearly">Yearly</button>
+              <button class="price_btn active" style="border-radius: 0 10px 10px 0;" id="monthly">Monthly</button>
             </div>
           </div>
         </div>
       </div>
 
       <!-- price cards start monthly -->
-       <div class="row align-items-center py-5 row-gap-4 hide">
+       <div class="row align-items-center py-5 row-gap-4" id="monthlyCards">
         <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
           <div class="my_card text-center d-flex flex-column row-gap-4">
             <p class="card_text">Starter</p>
@@ -204,7 +204,7 @@
       <!-- price cards end -->
 
       <!-- price cards start yearly -->
-       <div class="row align-items-center py-5 row-gap-4">
+       <div class="row align-items-center py-5 row-gap-4" id="yearlyCards">
         <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
           <div class="my_card text-center d-flex flex-column row-gap-4">
             <p class="card_text">Starter</p>
@@ -255,5 +255,6 @@
 
     
     <script src="assets/vendor/js/bootstrap.bundle.js"></script>
+    <script src="assets/main/js/index.js"></script>
 </body>
 </html>
