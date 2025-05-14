@@ -19,6 +19,18 @@ monthlyBtn.addEventListener("click", () => {
     yearlyCards.style.display = "none"
 })
 */
+document.addEventListener('DOMContentLoaded', function () {
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', function () {
+        navLinks.forEach(l => l.classList.remove('active'));
+
+        this.classList.add('active');
+      });
+    });
+  });
+
 document.addEventListener("DOMContentLoaded", function () {
   const yearlyBtn = document.getElementById("yearly");
   const monthlyBtn = document.getElementById("monthly");
