@@ -30,6 +30,8 @@
 nav.my_navbar {
     font-family: "DM Sans";
     font-weight: 700;
+    background: #fff;
+    top: 0;
 }
 
 .started_orange {
