@@ -32,6 +32,12 @@ nav.my_navbar {
     font-weight: 700;
     background: #fff;
     top: 0;
+    transition: box-shadow 0.3s ease;
+    z-index: 1030;
+}
+
+nav.my_navbar.shadow {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .started_orange {

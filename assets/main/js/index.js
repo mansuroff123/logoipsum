@@ -31,6 +31,17 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+// Navbar shadow animation
+const navbar = document.querySelector('nav.my_navbar');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50) {
+    navbar.classList.add('shadow');
+  } else {
+    navbar.classList.remove('shadow');
+  }
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const yearlyBtn = document.getElementById("yearly");
   const monthlyBtn = document.getElementById("monthly");
